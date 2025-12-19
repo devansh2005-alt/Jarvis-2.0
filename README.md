@@ -1,56 +1,29 @@
+# Jarvis 2.0 – Voice-Controlled AI Assistant
 
-# Jarvis 2.0 – Python Voice Assistant 🤖🎙
+Jarvis 2.0 is a Python-based voice-controlled AI assistant that performs system-level and web-based tasks using natural voice commands.
 
-Jarvis is a powerful voice-activated AI assistant built in Python. It responds to natural voice commands and performs system-level tasks just like Iron Man's Jarvis.
+## 🔹 Features
+- Wikipedia Q&A
+- Real-time news updates via APIs
+- Send emails using voice commands
+- Date, time, and weather updates
+- Open websites and applications
+- System controls (brightness, volume)
+- Screenshot capture by voice
+- Alarm and reminders
 
-## 🔧 Features
-- 🔍 Wikipedia Q&A
-- 📰 Latest News Reader
-- 📧 Send Emails by Voice
-- 📅 Date, Time, and Weather
-- 🔒 Voice Password Lock
-- 📷 Screenshot by Voice
-- 📍 Location Tracker
-- 🌐 Open Websites & Apps
-- 🎛 Control Brightness & Volume
-- 🚀 Internet Speed Test
-- ⏰ Alarm with Tone
+## 🛠️ Technologies Used
+- Python
+- SpeechRecognition
+- pyttsx3 (Text-to-Speech)
+- REST APIs
+- Automation Scripts
 
-## 🛠 Tech Stack
-- Python 3
-- Libraries: pyttsx3, SpeechRecognition, PyAutoGUI, pycaw, geocoder, smtplib, speedtest-cli, etc.
+## ⚙️ How It Works
+1. Takes voice input using SpeechRecognition
+2. Processes commands using Python logic
+3. Executes system or web actions
+4. Responds using Text-to-Speech
 
-## 🖥 How to Run
-```bash
-pip install -r requirements.txt
-python main.py 
-👤 CREATED BY : DEVANSH PATIDAR
-
-
-5. Press Ctrl + S to *save the file*
-
----
-
-### 🟢 STEP 2: Push the README.md to GitHub
-
-Now push this change to GitHub:
-
-#### 💡 Option 1: Use GitHub Desktop (Easiest)
-1. Open GitHub Desktop
-2. You’ll see README.md listed under *Changes*
-3. Add commit message:
-   > Added README file
-4. Click *Commit to main*
-5. Then click *Push origin*
-
----
-
-#### 💡 Option 2: Use VS Code Terminal (If You Prefer Git)
-
-1. Open Terminal in VS Code (Ctrl + ~)
-2. Run these commands:
-
-```bash
-git add README.md
-git commit -m "Added README file"
-git push origin main
+## 🎯 Learning Outcome
+This project helped me gain hands-on experience in Python automation, API integration, and building AI-driven user interaction systems.
